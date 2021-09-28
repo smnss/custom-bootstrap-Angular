@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+$primary: $purple;
+$info: rgb(1, 38, 73);
+$breadcrumb-divider: quote(">");
+
+$theme-colors: (
+  primary: $primary,
+  info: $info
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+.left-red-border
+{
+    border-left-width: 6px;
+    border-left-color: $danger;
+}
